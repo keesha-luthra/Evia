@@ -1,0 +1,78 @@
+# =============================
+# CORE FRAMEWORKS
+# =============================
+
+# Streamlit for web app UI
+streamlit==1.41.1
+
+# Flask backend and SocketIO for real-time communication
+flask==3.0.2
+flask_socketio==5.3.6
+flask-cors==4.0.1
+eventlet==0.36.1
+gunicorn==23.0.0  # optional for WSL; not required on Windows if using 'python app.py'
+
+# =============================
+# LANGUAGE MODEL + LLM TOOLS
+# =============================
+
+# LangChain core and ecosystem packages
+langchain==0.3.0
+langchain-core==0.3.29
+langchain-community==0.3.0
+langchain-groq==0.2.3
+
+# OpenAI + Google Generative AI
+openai==1.60.1
+google-generativeai==0.8.3
+
+# Tokenizer utilities
+tiktoken==0.4.0
+
+# =============================
+# NLP + ML LIBRARIES
+# =============================
+
+transformers==4.48.1
+sentence-transformers==3.4.0
+torch==2.0.1
+torchvision==0.15.2
+faiss-cpu==1.9.0.post1
+
+# =============================
+# DATA + PDF PROCESSING
+# =============================
+
+PyMuPDF==1.25.2
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.13.1
+dataclasses-json==0.6.7
+
+# =============================
+# MAPS + GEOLOCATION
+# =============================
+
+googlemaps==4.5.3
+geopy==2.3.0
+folium==0.19.4
+streamlit-folium==0.7.0
+
+# =============================
+# UTILITIES + IMAGE HANDLING
+# =============================
+
+gdown==6.1.0
+
+opencv-python==4.10.0.84
+pillow==9.4.0
+requests==2.32.3
+python-dotenv==1.0.0
+
+# =============================
+# TEMPLATE + SERVER UTILITIES
+# =============================
+
+werkzeug==3.0.2
+jinja2==3.1.3
+grpcio==1.69.0
